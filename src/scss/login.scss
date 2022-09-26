@@ -1,0 +1,26 @@
+.login {
+  background: lightslategrey;
+  height: 95vh;
+}
+
+.input-log {
+  background: local;
+  width: 450px;
+}
+
+.input-log input {
+  @include input;
+}
+
+.login button {
+  @include btn-style;
+}
+
+.login button:hover {
+  background: $dark-blue;
+  color: wheat;
+}
+
+.error {
+  font-size: 1.2em;
+}

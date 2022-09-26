@@ -1,0 +1,64 @@
+.profile {
+  background: lightslategrey;
+  height: 95vh;
+}
+
+.add-btn {
+  @include btn-style;
+}
+
+.profile button:hover {
+  background: $dark-blue;
+  color: wheat;
+}
+
+.profile-image {
+  width: 450px;
+  background: $grey;
+}
+
+.profile-image img {
+  object-position: center;
+  object-fit: contain;
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  font-size: 2em;
+  padding: 5px;
+  width: 10px;
+  height: 30px;
+  margin: 15px;
+}
+
+.username {
+  margin: 15px;
+  font-size: 1.5em;
+}
+
+.profile-input {
+  height: 100%x;
+  margin: 30px;
+}
+
+.profile-input input {
+  padding: 5px;
+}
+
+.mini-image {
+  margin-top: 25px;
+}
+
+.mini-image img {
+  background: $grey;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}

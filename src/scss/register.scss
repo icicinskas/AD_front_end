@@ -1,0 +1,29 @@
+.register {
+  background: lightslategrey;
+  height: 95vh;
+  font-size: 1.2em;
+}
+
+.input-reg {
+  background: local;
+  width: 450px;
+}
+
+.input-reg input {
+  @include input;
+}
+
+.input-age {
+  font-weight: 700;
+  width: 183px;
+  font-size: 1.2em;
+}
+
+.register button {
+  @include btn-style;
+}
+
+.register button:hover {
+  background: $dark-blue;
+  color: wheat;
+}

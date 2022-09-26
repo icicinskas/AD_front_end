@@ -1,0 +1,9 @@
+.like-btn button {
+  @include btn-style;
+  margin: 20px;
+}
+
+.like-btn button:hover {
+  background: $dark-blue;
+  color: wheat;
+}

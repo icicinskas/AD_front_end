@@ -1,0 +1,26 @@
+.filter-page {
+  width: 100%;
+  background: lightslategrey;
+  height: 95vh;
+  width: 100%;
+}
+
+.filter-box {
+  background: #efefef;
+  height: 400px;
+  width: 400px;
+}
+
+.select-input {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.filter-btn {
+  @include btn-style;
+}
+
+.filter-btn:hover {
+  background: $dark-blue;
+  color: wheat;
+}

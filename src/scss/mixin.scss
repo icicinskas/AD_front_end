@@ -1,0 +1,15 @@
+// saved styles
+
+@mixin btn-style {
+  cursor: pointer;
+  color: $dark-blue;
+  border-radius: 4px;
+  border: 1px solid;
+  padding: 5px;
+  width: 100px;
+}
+
+@mixin input {
+  cursor: pointer;
+  padding: 5px;
+}
